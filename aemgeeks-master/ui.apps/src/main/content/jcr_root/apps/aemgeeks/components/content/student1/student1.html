@@ -1,0 +1,30 @@
+<h1>Student1</h1>
+<div data-sly-use.mystudent="${'com.aem.geeks.core.models.Student'}"></div>
+
+    <div>First Name :  ${mystudent.firstName} </div>
+
+    <div>Last Name  :  ${mystudent.lastName}   </div>
+    
+    <div>Professor  :  ${author.professor}  </div>
+
+    <div>ID         :  ${mystudent.iD}  </div>
+
+    <div>FVColor    :  ${mystudent.fvColor}  </div>
+
+    <div>CLG Name   :  ${mystudent.clgName}  </div>
+
+
+    <div>text       :  ${mystudent.text @context='html'} </div>
+
+
+    <a href="${mystudent.pathbrowser}">${mystudent.pathbrowser}</a>
+    
+
+
+    
+
+
+
+
+
+
