@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centred Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center; /* Horizontally center */
+            align-items: center; /* Vertically center */
+            gap: 20px; /* Space between items */
+            padding: 20px 10px; /* Top and bottom padding: 20px; Left and right padding: 10px */
+        }
+
+        .item {
+            flex: 1; /* Takes equal space */
+            text-align: center;
+        }
+
+        .item > p {
+            padding: 10px;
+        }
+
+        /* Fixed height for the text above "Read More" */
+        .item-text {
+            height: 40px; /* Adjust based on design needs */
+            display: flex;
+            font-family: "domaine", serif;
+            font-weight: bold; /* Making text bold */
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Removing underline from the Read More links */
+        .item a {
+            text-decoration: none;
+            color: blue; /* Adjust the color as per your design */
+            padding-top: 10px; /* Added padding above the link */
+        }
+
+        /* Removed the hover effect that adds the underline */
+        .item a:hover {
+            text-decoration: none;
+        }
+
+        .container .item img {
+            height: 50px;
+        }
+
+    </style>
+</head>
+
+<body class="teaser">
+
+    <div class="container">
+        <div class="item">
+            <p><img src="https://cdn.tollbrothers.com/publicfiles/tollcareercenter/svgs/About.svg" alt="Icon 1">
+            <div class="item-text">
+                About Toll Brothers
+            </div>
+            <a class="read" href="#">Read More</a></p>
+        </div>
+
+        <div class="item">
+            <p><img src="https://cdn.tollbrothers.com/publicfiles/tollcareercenter/svgs/benefits.svg" alt="Icon 2">
+            <div class="item-text">
+                Benefits
+            </div>
+            <a class="read" href="#">Read More</a></p>
+        </div>
+
+        <div class="item">
+            <p><img src="https://cdn.tollbrothers.com/publicfiles/tollcareercenter/svgs/Diversity.svg" alt="Icon 3">
+            <div class="item-text">
+                Diversity & Inclusion
+            </div>
+            <a class="read" href="#">Read More</a></p>
+        </div>
+
+        <div class="item">
+            <p><img src="https://cdn.tollbrothers.com/publicfiles/tollcareercenter/svgs/social-impact.svg" alt="Icon 4">
+            <div class="item-text">
+                Social Impact
+            </div>
+            <a class="read" href="#">Read More</a></p>
+        </div>
+
+        <div class="item">
+            <p><img src="https://cdn.tollbrothers.com/publicfiles/tollcareercenter/svgs/hear.svg" alt="Icon 5">
+            <div class="item-text">
+                Hear from Our Employees
+            </div>
+            <a href="#">Read More</a></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<sly data-sly-use.kanni="com.aem.geeks.core.models.Lenovo"></sly>
+
+<p data-sly-test="${kanni.firstname}">First Name:
+         ${kanni.firstname}</p>
+
+<sly data-sly-test="${kanni.lastname}">
+      Last Name:${kanni.lastname}
+</sly>
+
+<div data-sly-test="${kanni.virat}">
+     Cricketer:${kanni.virat}
+ </div>
+
+ <div data-sly-test=${kanni.path}>
+       <a href="${kanni.path}"
+       target="${kanni.path ? '-blank' : '-self'}">URL Link</a>
+ </div>
+
+ 
+
+ <div data-sly-test="${kanni.lenovo}">
+      <sly data-sly-list.lenovo2=${kanni.lenovo}>
+      place:${lenovo2.like}<br>
+      nenu:${lenovo2.place}<br>
+
+<div data-sly-test="${lenovo2.age}">
+<sly data-sly-list.sare=${lenovo2.age}>
+      text:${sare.text}<br>
+      dec:${sare.description}<br>
+</div>
+
+
+

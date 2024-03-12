@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toll Brothers Career</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.dynamictext {
+  font-family: Arial, sans-serif;
+  padding: 20px 240px;
+
+
+}
+
+#main-heading h1 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-top: -200px;
+  margin-bottom: 20px;
+}
+
+#content {
+  margin-bottom: 20px;
+  margin-top: 38px;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.menu-item {
+  margin: 50px 10px;
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.menu-item.active {
+  border-bottom: 2px solid black;
+}
+</style>
+
+</head>
+<body class="dynamictext">
+
+<div id="main-heading">
+  <h1>${properties.title}</h1>
+</div>
+
+<div id="content">
+  <p id="dynamic-text">You are respected for who you are. At Toll Brothers, we are committed to building a diverse workforce where all employees are welcomed and treated with fairness, dignity and respect. We know that the best ideas are born, and the best work happens, when every employee feels included and celebrated for their true, authentic self. How will your unique background, perspective, and experiences take us to the next level?</p>
+</div>
+
+<div id="menu">
+  <div class="menu-item" onclick="changeText('pride')">${properties.pride}</div>
+  <div class="menu-item" onclick="changeText('ideas')">${properties.ideas}</div>
+  <div class="menu-item" onclick="changeText('contributions')">${properties.contributions}</div>
+  <div class="menu-item" onclick="changeText('inclusion')">${properties.inclusion}</div>
+</div>
+<script>// Function to change the text based on the selected menu
+function changeText(section) {
+  const textOptions = {
+    pride: "You are respected for who you are. At Toll Brothers, we are committed to building a diverse workforce where all employees are welcomed and treated with fairness, dignity and respect. We know that the best ideas are born, and the best work happens, when every employee feels included and celebrated for their true, authentic self. How will your unique background, perspective, and experiences take us to the next level?",
+    ideas: "Your ideas are heard. Building the finest homes in America demands creativity and a desire to bring fresh ideas to every project. Don’t be surprised to share your vision with everyone from your peers to our CEO. Like the superior quality homes we build, your opportunities to contribute and be heard are unrivaled. Eager to share your ideas?",
+    contributions: "You’ll see your contributions come to life. Step into the grand foyer of a Toll Brothers home and you’ll see how your efforts helped build a masterpiece. Whether you’re an engineer, a sales agent or a mortgage expert, you’ll make big contributions to our ultimate goal: delivering dream homes. Tell us how you would like to contribute.",
+    inclusion: "You are respected for who you are. At Toll Brothers, we are committed to building a diverse workforce where all employees are welcomed and treated with fairness, dignity and respect. We know that the best ideas are born, and the best work happens, when every employee feels included and celebrated for their true, authentic self. How will your unique background, perspective, and experiences take us to the next level?"
+  };
+
+  document.getElementById('dynamic-text').textContent = textOptions[section];
+
+  const menuItems = document.querySelectorAll('.menu-item');
+  menuItems.forEach(item => item.classList.remove('active'));
+  event.target.classList.add('active');
+}
+</script>
+
+
+</body>
+</html>

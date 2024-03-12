@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: space-around; /* evenly distribute space between and around the content items */
+            flex-wrap: wrap; /* enable wrapping */
+            background-color: #ebebeb;
+            padding: 20px;
+            width:1500px;
+        }
+
+        .video-wrapper {
+            flex: 1; /* allow the wrapper to grow */
+
+            margin: 10px; /* margin around each video wrapper */
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-title {
+            margin-bottom: 20px;
+            text-align: center; /* Center align the video titles */
+        }
+
+        iframe {
+            width: 100%; /* make the iframe responsive */
+            height: 346px;
+        }
+
+        .cta-button {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <div class="video-wrapper">
+            <h3 class="video-title">${properties.text}</h3>
+            <iframe src="https://www.youtube.com/embed/0BrFwD1flL8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <a href="https://www.youtube.com/embed/0BrFwD1flL8" class="cta-button">Take a look inside Toll Brothers</a>
+        </div>
+        <div class="video-wrapper">
+            <h3 class="video-title">${properties.id}</h3>
+            <iframe src="https://player.vimeo.com/video/574030112/" allowfullscreen></iframe>
+            <a href="https://player.vimeo.com/video/574030112/" class="cta-button">A glimpse of Toll Brothers</a>
+        </div>
+    </div>
+</body>
+</html>

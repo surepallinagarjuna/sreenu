@@ -1,0 +1,206 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            <h1>toll brother</h1>
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+
+/* header {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+} */
+header{
+    background-image:url('https://cdn.tollbrothers.com/communities/14464/images-resized/2-100-West_Towns_P3_Family-Room_1920.jpg');
+}
+.header-logo {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.header-logo img {
+    max-width: 150px;
+    color: white;
+}
+.header-menu{
+     text-align: right;
+     margin-top: 10px;
+     color: white;
+}
+.header-menu li {
+     display: inline;
+     margin: 0 20px;
+     color: white;
+}
+.header-menu a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.naga{
+    margin-left: 30%;
+    color: white;
+}
+
+h1{
+    text-align-last: center;
+    padding-top: 200px;
+    color: white;
+    font-size: 500%;
+}
+.love{
+    color: white;
+    padding-top: 20%;
+}
+.save{
+    box-shadow: none;
+}
+.custom-button {
+    background-color:white;
+    border-color: black;
+    color: #3876BF;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px ;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: auto;
+
+}
+
+.custom-button h3{
+    font-size:15px;
+    }
+.custom-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+.second-button {
+    background-color:#3085C3;
+    border-color: black;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px ;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: auto;
+}
+.second-button:hover {
+    background-color: #3085C3;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+.second-button h3{
+    font-size:15px;
+    }
+        </style>
+    </head>
+
+
+    <body>
+        <header>
+            <div data-sly-use.header="com.aem.geeks.core.models.Task"></div>
+            <nav>
+                <div class="header-logo">
+                    <a href="#">
+                    </a>
+                    </div>
+            <ul class="header-menu">
+                <li><img height="39" width="200" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/toll_logo.svg" alt="Toll Brothers Logo"/></li>
+                <li><img class="naga" src="toll-brothers-logo.png" alt="Toll Brothers Logo"></li>
+                <li><a href="#">${header.contact}</a></li>
+                <li><a href="#">${header.favorites} </a></li>
+                <li><a href="#">${header.name}</a></li>
+                <li><a href="#">${header.text}</a></li>
+            </ul>
+            </nav>
+
+            <div>
+                <h1>${header.title}</h1>
+            </div>
+
+            <div class="love">
+                <table>
+                    <th>Townhomes</th>
+                    <th>San Diego, CA | San Diego County</th>
+                    <th class="save"><button  aria-label="">
+
+                        <img src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/favoriteicon.svg" alt="Favorite icon">
+                        <div >Save This Community</div></button></th>
+                </table>
+            </div>
+<div>
+<button class="custom-button"  type="button"><h3>Contact sales</h3></button>
+<button class="second-button"  type="button"><h3>Become a VIP</h3></button>
+</div>
+
+        </header>
+    </body>
+</html>
+
+
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "description": "",
+      "proName": "NASDAQ:AMZN"
+    },
+    {
+      "description": "",
+      "proName": "NASDAQ:AAPL"
+    },
+    {
+      "description": "",
+      "proName": "NASDAQ:TSLA"
+    },
+    {
+      "description": "",
+      "proName": "NASDAQ:MSFT"
+    },
+    {
+      "description": "",
+      "proName": "NASDAQ:NFLX"
+    },
+    {
+      "description": "",
+      "proName": "NASDAQ:RIOT"
+    },
+     {
+      "description": "",
+      "proName": "NASDAQ:META"
+    },
+    {
+      "description": "",
+      "proName": "NASDAQ:META"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->

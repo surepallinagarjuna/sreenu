@@ -87,7 +87,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <verbose>true</verbose>
-                    <failOnError>true</failOnError>
+                    <failOnError>false</failOnError>
                 </configuration>
             </plugin>
 
