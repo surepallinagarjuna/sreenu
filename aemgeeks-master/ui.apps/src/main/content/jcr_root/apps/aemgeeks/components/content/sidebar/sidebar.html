@@ -1,0 +1,26 @@
+
+<sly data-sly-use.side="com.aem.geeks.core.models.Sidebar"></sly>
+
+
+<div>Logo Path :  ${side.logo} </div>
+
+<div>Logo Mobile Image  :  ${side.mobile}   </div>
+
+<div>Logo Link   :  ${side.pic}  </div>
+
+<div>Enable Switch:  ${side.king}  </div>
+
+ <div data-sly-test="${side.mrs}">
+      <sly data-sly-list.side2=${side.mrs}>
+      place:${side2.place}<br>
+      nenu:${side2.photo}<br>
+
+<div data-sly-test="${mrs.navi}">
+<sly data-sly-list.navigation=${mrs.navi}>
+      text:${navigation.icon}<br>
+      dec:${navigation.mobile}<br>
+</div>
+
+
+
+

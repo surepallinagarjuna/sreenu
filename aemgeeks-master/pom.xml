@@ -90,7 +90,7 @@
                                 <requireJavaVersion>
                                     <message>Project must be compiled
                                         with Java 8 or higher</message>
-                                    <version>1.8.0</version>
+                                    <version>11.0.17</version>
                                 </requireJavaVersion>
                             </rules>
                         </configuration>
@@ -101,6 +101,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -768,6 +769,7 @@ Bundle-DocURL:
                 <version>1.0.1</version>
                 <scope>test</scope>
             </dependency>
+            
         </dependencies>
     </dependencyManagement>
 

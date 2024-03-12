@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-10-23T11:42:53.239+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aemgeeks/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="aemgeeks/components/article-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aemgeeks/components/container">
+            <richtext
+                jcr:created="{Date}2023-10-23T11:16:18.891+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-23T11:27:07.601+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemgeeks/components/richtext"
+                text="&lt;h3>                                             MIRA VISTA&lt;/h3>&#xd;&#xa;&lt;h1>                 Home Starts Here&lt;/h1>&#xd;&#xa;&lt;p style=&quot;text-align: center;&quot;>Future Community&lt;/p>&#xd;&#xa;&lt;p style=&quot;text-align: center;&quot;>Mira Vista in San Diego, CA is a new home community of 3-story luxury townhomes featuring 3-4 beds and 2.5-3.5 baths with a prestigious central location in Clairemont Mesa and access to Mission Bay Park, Pacific Beach, freeways, shopping and dining.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <richtext_1476423613
+                jcr:created="{Date}2023-10-23T11:42:41.839+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-23T11:42:53.216+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemgeeks/components/richtext"
+                text="&lt;h1>MIRA VISTA&lt;/h1>&#xd;&#xa;&lt;h3>Home Starts Here&lt;/h3>&#xd;&#xa;&lt;p>Future Community&lt;/p>&#xd;&#xa;&lt;p>Mira Vista in San Diego, CA is a new home community of 3-story luxury townhomes featuring 3-4 beds and 2.5-3.5 baths with a prestigious central location in Clairemont Mesa and access to Mission Bay Park, Pacific Beach, freeways, shopping and dining.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <responsivegrid
+                jcr:created="{Date}2023-10-20T14:34:35.151+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-20T17:23:00.642+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true"/>
+            <footer
+                jcr:created="{Date}2023-10-20T14:34:51.064+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-10-20T14:34:51.064+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemgeeks/components/content/footer"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

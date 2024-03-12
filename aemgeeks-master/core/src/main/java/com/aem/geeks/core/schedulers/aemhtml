@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="msvalidate.01" content="7404748865E21BB4E13C7B5E605722A6"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link id="fontGothamNarrSSm" rel="preload" href="https://cdn.tollbrothers.com/fonts/gotham/woff2/GothamNarrSSm-Medium_Web.woff2" as="font" type="font/woff2" crossorigin="true"/>
+        <link id="fontGothamSSm" rel="preload" href="https://cdn.tollbrothers.com/fonts/gotham/woff2/GothamSSm-Book_Web.woff2" as="font" type="font/woff2" crossorigin="true"/>
+        <link id="fontDomaine" rel="preload" href="https://cdn.tollbrothers.com/fonts/domaine/domaine-bold.woff2" as="font" type="font/woff2" crossorigin="true"/>
+        <link id="cdnToll" rel="dns-prefetch" href="//cdn.tollbrothers.com"/>
+        <link id="goToll" rel="dns-prefetch" href="//go.tollbrothers.com"/>
+        <link rel="search" type="application/opensearchdescription+xml" href="/meta/opensearch.xml" title="Toll Brothers"/>
+        <link rel="shortcut icon" href="https://cdn.tollbrothers.com/images/favicon.ico"/>
+        <link rel="apple-touch-icon" href="https://cdn.tollbrothers.com/images/iphone.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="https://cdn.tollbrothers.com/images/ipad.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="https://cdn.tollbrothers.com/images/iphone2x.png"/>
+        <title>New Home Community Mira Vista in San Diego, CA | Toll Brothers</title>
+        <meta name="robots" content="noydir,noodp,index,follow"/>
+        <meta name="keywords" content="New homes, luxury homes, home builder, new home builders, new home, luxury home, home builders, new home builder"/>
+        <meta name="description" content="The Mira Vista is a new home community in San Diego, CA. Speak to an OSC to explore these 3-story townhomes with various personalization options &amp; ideal views."/>
+        <meta name="verify-v1" content="m+k+sdDBK1uHaOWIEwnf4HlTqrs2FClXX/QfNW9isCM="/>
+        <meta property="og:title" content="New Home Community Mira Vista in San Diego, CA | Toll Brothers"/>
+        <meta property="og:image" content="https://cdn.tollbrothers.com/communities/14464/images-resized/2-100-West_Towns_P3_Family-Room_1920.jpg"/>
+        <meta property="og:site_name" content="Toll Brothers® Luxury Homes"/>
+        <meta property="og:description" content="The Mira Vista is a new home community in San Diego, CA. Speak to an OSC to explore these 3-story townhomes with various personalization options &amp; ideal views."/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="fb:app_id" content="416694195054721"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@tollbrothers"/>
+        <meta name="twitter:creator" content="@tollbrothers"/>
+        <meta name="twitter:description" content="The Mira Vista is a new home community in San Diego, CA. Speak to an OSC to explore these 3-story townhomes with various personalization options &amp; ideal views."/>
+        <meta name="twitter:title" content="New Home Community Mira Vista in San Diego, CA | Toll Brothers"/>
+        <meta name="twitter:image" content="https://cdn.tollbrothers.com/communities/14464/images-resized/2-100-West_Towns_P3_Family-Room_1920.jpg"/>
+        <link rel="canonical" href="https://www.tollbrothers.com/luxury-homes-for-sale/California/Mira-Vista"/>
+        <script type="application/ld+json">
+            {
+        "@context" : "http://schema.org/",
+        "@type" : "SingleFamilyResidence",
+        "description" : "The Mira Vista is a new home community in San Diego, CA. Speak to an OSC to explore these 3-story townhomes with various personalization options & ideal views.",
+        "name" : "Mira Vista",
+        "url" : "https://www.tollbrothers.com/luxury-homes-for-sale/California/Mira-Vista",
+        "telephone" : "866-232-1631",
+        "image" : "https://cdn.tollbrothers.com/communities/14464/images-resized/2-100-West_Towns_P3_Family-Room_1920.jpg",
+        "openingHoursSpecification" : ,
+        "address" : {
+          "@type" : "PostalAddress",
+          "addressCountry" : "USA",
+          "addressLocality" : "San Diego",
+          "addressRegion" : "CA",
+          "postalCode" : "92117",
+          "streetAddress" : "Clairemont Dr. and Dakota Dr."
+        },
+        "geo" : {
+          "@type" : "GeoCoordinates",
+          "latitude" : 32.803620294087125,
+          "longitude" : -117.1995187334501
+        },
+        "isicV4": "4100",
+        "duns": "06-182-8521",
+        "priceRange": "null",
+        "@id" : "https://www.tollbrothers.com/luxury-homes-for-sale/California/Mira-Vista"
+      }
+        </script>
+        <meta name="next-head-count" content="34"/>
+        <link href="https://cdn-prod.securiti.ai/consent/cookie-consent.css?cb=1677266272736" type="text/css" rel="stylesheet"/>
+        <script id="tollPageData" data-nscript="beforeInteractive">
+            var tollPageData = tollPageData || {};
+        </script>
+        <link rel="preload" href="/_next/static/css/766fb27cf25ed3cb.css" as="style"/>
+        <link rel="stylesheet" href="/_next/static/css/766fb27cf25ed3cb.css" data-n-g=""/>
+        <link rel="preload" href="/_next/static/css/c8021a61665c2767.css" as="style"/>
+        <link rel="stylesheet" href="/_next/static/css/c8021a61665c2767.css" data-n-p=""/>
+        <link rel="preload" href="/_next/static/css/ff73b644505eed7c.css" as="style"/>
+        <link rel="stylesheet" href="/_next/static/css/ff73b644505eed7c.css" data-n-p=""/>
+        <noscript data-n-css=""></noscript>
+        <script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+        <script src="/_next/static/chunks/webpack-dd76d28565d503c7.js" defer=""></script>
+        <script src="/_next/static/chunks/framework-2fe4cb6473b20297.js" defer=""></script>
+        <script src="/_next/static/chunks/main-921b8e94178fa8ad.js" defer=""></script>
+        <script src="/_next/static/chunks/pages/_app-1df04ade80cb5303.js" defer=""></script>
+        <script src="/_next/static/chunks/1664-9ad65ab6e4502b59.js" defer=""></script>
+        <script src="/_next/static/chunks/1768-cf4588577ff4afe1.js" defer=""></script>
+        <script src="/_next/static/chunks/1500-ec73d5d860a2d1f2.js" defer=""></script>
+        <script src="/_next/static/chunks/8026-e78d63508dd5a26e.js" defer=""></script>
+        <script src="/_next/static/chunks/9845-f71dd2aaf0685797.js" defer=""></script>
+        <script src="/_next/static/chunks/9696-0aa292abda90291e.js" defer=""></script>
+        <script src="/_next/static/chunks/pages/luxury-homes-for-sale/%5B%5B...product%5D%5D-483681c1eac4954e.js" defer=""></script>
+        <script src="/_next/static/JpbKMC7ioT-789pq0RjyV/_buildManifest.js" defer=""></script>
+        <script src="/_next/static/JpbKMC7ioT-789pq0RjyV/_ssgManifest.js" defer=""></script>
+    </head>
+    <body>
+        <div id="__next">
+            <div id="myportal"></div>
+            <div class="layout">
+                <div class="Header_container__xFqmT">
+                    <div class="Header_skipto_menu_holder__TMtt0">
+                        <ul>
+                            <li>
+                                <a href="#page_content" accessKey="p" tabindex="1" title="Skip to page content">Page Content</a>
+                            </li>
+                            <li>
+                                <a href="#main_nav" accessKey="n" tabindex="2" title="Skip to main navigation menu">Site Navigation</a>
+                            </li>
+                            <li>
+                                <a href="#search_space" accessKey="s" tabindex="3" title="Skip to search">Search</a>
+                            </li>
+                            <li>
+                                <a href="#footer_space" accessKey="f" tabindex="4" title="Skip to footer (ctrl/alt + f)">Footer</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <header class="Header_header__vSdFG Header_transparent__x1xLl ">
+                        <div class="Header_logo__tL_od">
+                            <a href="/">
+                                <img height="39" width="200" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/toll_logo.svg" alt="Toll Brothers Logo"/>
+                            </a>
+                        </div>
+                        <nav role="navigation" id="main_nav">
+                            <div class="Header_submenu__bT_u9 ">
+                                <a title="Toll Brothers Advantage" href="/advantage">Toll Brothers Advantage</a>
+                                <a title="About Us" href="/about">About Us</a>
+                                <a title="Contact Us" href="/contact">Contact Us</a>
+                                <a title="My Favorites" href="/my-favorites">My Favorites</a>
+                                <button class="Header_closeMenuButton__ybUZl">
+                                    <img width="20" height="20" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/close.svg" alt="Close Icon"/>
+                                    <span>Close Menu</span>
+                                </button>
+                            </div>
+                            <div class="Header_searchButtonHolder__BMv6a">
+                                <button type="submit" class="SearchButton_searchbutton__bEZhe SearchButton_white__yyWBG">
+                                    <img width="20" height="20" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/search.svg" alt="Search icon"/>
+                                    <span>Search Homes</span>
+                                </button>
+                            </div>
+                            <button class="Header_menuButton__z6qEr js-hamburger-menu-trig">
+                                <img width="20" height="20" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/hamburger.svg" alt="Hamburger menu"/>
+                                <span>Menu</span>
+                            </button>
+                        </nav>
+                    </header>
+                    <div class="Header_breadCrumbHolder__Uk0FS">
+                        <div class="BreadCrumbs_breadcrumbsholder__rxRO9">
+                            <nav class="BreadCrumbs_breadcrumbs__YV2_T BreadCrumbs_transparent__mfG8L">
+                                <ul>
+                                    <li>
+                                        <a title="Home" href="/">Home</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <main>
+                    <script>
+                        tollPageData.masterCommunityNumber = null;
+                        tollPageData.masterCommunityName = "null";
+                        tollPageData.communityState = "CA";
+                        tollPageData.communityIsCityLiving = false;
+                        tollPageData.amenities = [];
+                    </script>
+                    <div>
+                    <!-- pd: 86330000 -->
+                    </div>
+                    <div class="TemplateCommunity_communityLayout__QWpL3">
+                        <section class="CommunityHero_hero__CNMcp">
+                            <div class="CommunityHero_logoSpace__MTr7b" id="page_content">
+                                <div class="CommunityHero_badge__c9yc3">Coming Soon</div>
+                                <div class="CommunityHero_logoHolder__TCGUq CommunityHero_topMargin__gOJ7L">
+                                    <img src="https://cdn.tollbrothers.com/communities/14464/logo-resized/MiraVistaLogo-V-BLK.svg" alt="Mira Vista"/>
+                                </div>
+                                <aside class="CommunityHero_heroDetails__W5Gov">
+                                    <ul>
+                                        <li>
+                                            <span class="CommunityHero_boldDetails__N6Ci6">Townhomes</span>
+                                        </li>
+                                        <li>
+                                            <span class="CommunityHero_boldDetails__N6Ci6">San Diego
+                                            <!-- -->
+                                            , 
+                                            <!-- -->
+                                            CA
+                                            <!-- -->
+                                            | 
+                                            <!-- -->
+                                            San Diego
+                                            <!-- -->
+                                            County</span>
+                                        </li>
+                                        <li>
+                                            <button class="FavoriteHeartButton_heartContain__y5BWz" aria-label="">
+                                                <div class="FavoriteHeartButton_heart__sAgt8 ">
+                                                    <img src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/favoriteicon.svg" alt="Favorite icon"/>
+                                                </div>
+                                                <div class="FavoriteHeartButton_heartTxt__MwQaX">Save This Community</div>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </aside>
+                            </div>
+                            <div class="_2KJsi">
+                                <div class="_20q1D">
+                                    <div style="width:100%;height:100%;display:block;background-color:rgba(0,0,0,0.4);position:absolute;z-index:0"></div>
+                                    <img src="https://cdn.tollbrothers.com/communities/14464/images-resized/2-100-West_Towns_P3_Family-Room_1920.jpg" alt="We need a title here" class="_33PmF false tracking_heroimage" id="frontImage"/>
+                                </div>
+                            </div>
+                            <aside class="CommunityHero_contactSpace__kL3h7">
+                                <button type="button" class="TollButton_contactButton__YDY_5 TollButton_white___u86r ">Contact Sales</button>
+                                <button type="button" class="TollButton_contactButton__YDY_5  ">Become a VIP</button>
+                            </aside>
+                        </section>
+                        <section class="CommunityContactBar_contactBar__xBt8Z undefined">
+                            <article>
+                                <div class="CommunityContactBar_contactBarInfo__0ff8K">
+                                    <div class="CommunityContactBar_salesTeam__WR2_F CommunityContactBar_borderRight__4tauq">
+                                        <div class="CommunityContactBar_contactTitleContainer__RRtD3">
+                                            <span class="CommunityContactBar_iconWrapper__xFShe">
+                                                <img src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/osc_icon_with_bubble.svg" alt="OSC icon"/>
+                                            </span>
+                                            <span class="CommunityContactBar_contactTitle__G5SEb">Online Sales Team</span>
+                                        </div>
+                                        <div class="CommunityContactBar_halfSide__2BIIx">
+                                            <div class="CommunityContactBar_salesInfo__JetOm">
+                                                <p class="CommunityContactBar_OSCname__5pL6W">Eva Bukac
+                                                <!-- -->
+                                                , Nick Papageorgiou
+                                                <!-- -->
+                                                , Debbie McCallion
+                                                <!-- -->
+                                                &amp;Stacey Harrison</p>
+                                                <p class="CommunityContactBar_licenseNum__EyilT">California DRE License ID No. 01228134, 02038295, 02145278, 02037257</p>
+                                                <a href="tel:866-232-1631" class="undefined tel">866-232-1631</a>
+                                            </div>
+                                            <div class="CommunityContactBar_salesActions__5xdYP">
+                                                <button class="CommunityContactBar_contactActionButton__lmmS3">
+                                                    <div class="CommunityContactBar_onlineDot__iFoED "></div>
+                                                    Chat
+                                                </button>
+                                                <a class="CommunityContactBar_contactActionButton__lmmS3" href="sms:866-232-1631" title="Text our Online Sales Team">Text</a>
+                                                <a class="CommunityContactBar_contactActionButton__lmmS3 tel" href="tel:866-232-1631" title="Call our Online Sales Team">Call</a>
+                                                <button class="CommunityContactBar_contactActionButton__lmmS3">Email</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="CommunityContactBar_salesTeam__WR2_F">
+                                        <div class="CommunityContactBar_contactTitleContainer__RRtD3">
+                                            <span class="CommunityContactBar_iconWrapper__xFShe">
+                                                <img src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/sales_icon_with_bubble.svg" alt="Sales office bubble icon"/>
+                                            </span>
+                                            <span class="CommunityContactBar_contactTitle__G5SEb">Future Community Location</span>
+                                        </div>
+                                        <div class="CommunityContactBar_halfSide__2BIIx ">
+                                            <div class="CommunityContactBar_salesInfo__JetOm">
+                                                <p class="CommunityContactBar_nameSalesTeam__8P7Hy">Clairemont Dr. and Dakota Dr.</p>
+                                                <p class="CommunityContactBar_nameSalesTeam__8P7Hy">San Diego
+                                                <!-- -->
+                                                , 
+                                                <!-- -->
+                                                CA
+                                                <!-- -->
+                                                <!-- -->
+                                                92117</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <div class="CommunityContactBar_btmPattern__TZzPp CommunityContactBar_lineOne__n8tam"></div>
+                        </section>
+                        <section class="DynamicMenuBar_dropdown_menubar_container__5xULt undefined" id="dropdown_menu">
+                            <div class="DynamicMenuBar_dropdown_nav_container__7ABVc">
+                                <div class="DynamicMenuBar_navFuzzyEdge__sKugl"></div>
+                                <div class="DynamicMenuBar_navFuzzyEdge__sKugl DynamicMenuBar_right__h1cmA"></div>
+                                <div class="DynamicMenuBar_navScroller__Vog6L">
+                                    <nav class="DynamicMenuBar_nav__M0m1K" id="menu_bar_nav">
+                                        <a href="#overview" class="DynamicMenuBar_link__rVMSg menuItem js-sticky-nav-analytics-trig">Details</a>
+                                        <a href="#availability" class="DynamicMenuBar_link__rVMSg menuItem js-sticky-nav-analytics-trig">Availability</a>
+                                    </nav>
+                                </div>
+                                <aside class="DynamicMenuBar_ctas__eXQv8">
+                                    <button type="button" class="TollButton_contactButton__YDY_5 TollButton_white___u86r ">Contact Sales</button>
+                                    <button type="button" class="TollButton_contactButton__YDY_5  ">Become a VIP</button>
+                                </aside>
+                            </div>
+                        </section>
+                        <aside class="DynamicMenuBar_mobileCTAs__bmoAW ">
+                            <button type="button" class="TollButton_contactButton__YDY_5 TollButton_white___u86r ">Contact Sales</button>
+                            <button type="button" class="TollButton_contactButton__YDY_5  ">Become a VIP</button>
+                        </aside>
+                        <section class="CommunityOverview_communityOverview__yYG0A" data-id="overview">
+                            <a id="overview" class="hiddenAnchor"></a>
+                            <aside class="CommunityOverview_overviewText__suReD">
+                                <h1>Mira Vista</h1>
+                                <h3 class="tracking_prop_header">Home Starts Here</h3>
+                                <p class="CommunityOverview_homeTypes__yY52h">Future Community</p>
+                                <p class="CommunityOverview_overviewDescription__F6gVY tracking_prop_body">Mira Vista in San Diego, CA is a new home community of 3-story luxury townhomes featuring 3-4 beds and 2.5-3.5 baths with a prestigious central location in Clairemont Mesa and access to Mission Bay Park, Pacific Beach, freeways, shopping and dining.</p>
+                                <div class="CommunityOverview_overviewOpening__9eaNS">
+                                    <p class="CommunityOverview_overviewOpeningTxt__Ci6DY"></p>
+                                </div>
+                            </aside>
+                            <div class="CommunityOverview_overviewVideo__VljKl">
+                                <div class="CommunityOverview_videoResponsive__zaQ1Q">
+                                    <div class="GalleryMedia_mediaWrapper__1TN9E">
+                                        <span class="spinner"></span>
+                                        <figure class="GalleryMedia_media__6ihab ">
+                                            <img class="" src="https://cdn.tollbrothers.com/communities/14464/images-resized/Mission-Bay-Pacific-Beach-Mission-Beach-La-Jolla_1920.jpg" alt="" loading="lazy"/>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <p class="CommunityOverview_overviewVideoCaption__dcRwj">Nearby Mission Bay</p>
+                            </div>
+                            <div class="CommunityOverview_overviewCarouselContent__syXIH">
+                                <h4 class="CommunityOverview_overviewSubhead__0virO tracking_prop_subheader">Why you will love this community</h4>
+                            </div>
+                            <div class="CommunityOverview_gallery__kNW2x page-margins page-margins__left">
+                                <div class="InlineScroller_scroller_holder__Fa8kr    inlineScroller-holder__adjust">
+                                    <div class="InlineScroller_scroller__EoYA7 inlineScroller-scoller__adjust">
+                                        <div class="CommunityOverview_galleryItem__uHEZx">
+                                            <div class="GalleryMedia_mediaWrapper__1TN9E">
+                                                <span class="spinner"></span>
+                                                <figure class="GalleryMedia_media__6ihab ">
+                                                    <img class="" src="https://cdn.tollbrothers.com/communities/14464/images-resized/7-100-West_Terraces_P3_Primary-Bedroom_1920.jpg" alt="" loading="lazy"/>
+                                                </figure>
+                                            </div>
+                                            <p class="CommunityOverview_overviewCarouselText__D1hXP">Primary bedrooms with walk-in closet</p>
+                                        </div>
+                                        <div class="CommunityOverview_galleryItem__uHEZx">
+                                            <div class="GalleryMedia_mediaWrapper__1TN9E">
+                                                <span class="spinner"></span>
+                                                <figure class="GalleryMedia_media__6ihab ">
+                                                    <img class="" src="https://cdn.tollbrothers.com/communities/14464/images-resized/8-100-West_Terraces_P3_Primary-Bath_1920.jpg" alt="" loading="lazy"/>
+                                                </figure>
+                                            </div>
+                                            <p class="CommunityOverview_overviewCarouselText__D1hXP">Luxe primary bathrooms</p>
+                                        </div>
+                                        <div class="CommunityOverview_galleryItem__uHEZx">
+                                            <div class="GalleryMedia_mediaWrapper__1TN9E">
+                                                <span class="spinner"></span>
+                                                <figure class="GalleryMedia_media__6ihab ">
+                                                    <img class="" src="https://cdn.tollbrothers.com/communities/14464/images-resized/1-100-West_Towns_P3_Great-Room_1920.jpg" alt="" loading="lazy"/>
+                                                </figure>
+                                            </div>
+                                            <p class="CommunityOverview_overviewCarouselText__D1hXP">Three-story floor plans</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div></div>
+                            <div class="CommunityOverview_overviewDownloads__Ibkqr">
+                                <div class="CommunityOverview_overviewDownloadsImg__rLZ1p">
+                                    <div class="CommunityOverview_topImage__pZYgc">
+                                        <div class="GalleryMedia_mediaWrapper__1TN9E">
+                                            <span class="spinner"></span>
+                                            <figure class="GalleryMedia_media__6ihab ">
+                                                <img class="" src="https://cdn.tollbrothers.com/communities/14464/images-resized/2-100-West_Towns_P2_Great-Room_1920.jpg" alt="" loading="lazy"/>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="CommunityOverview_overviewDownloadsTxt__OoUx7">
+                                    <div>
+                                        <ul class="CommunityOverview_overviewCarouselText__D1hXP">
+                                            <li>No Mello Roos &amp;Low property tax rate</li>
+                                            <li>Luxurious home designs with open floor plans</li>
+                                            <li>Conveniently located with great dining and shopping opportunities</li>
+                                            <li>Toll Brothers superior designs and quality craftsmanship</li>
+                                            <li>5 Minutes to the beach</li>
+                                        </ul>
+                                    </div>
+                                    <p class="tracking_description">
+                                        Coming soon, Spring 2024, take it all in from a stunning vantage point within San Diego’s Clairemont Mesa. This exclusive community of just 40 home sites offers exquisite views of the surrounding area and beautiful new construction luxury townhomes with three levels of living space. With the unique opportunity to select from a variety of personalization options, you can create a new home that perfectly reflects your taste and style in this sought-after location close to upscale shopping and dining and a plethora of world-class recreation.<br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="CommunityAvailabilityTable_availability__8Jh43" data-id="availability">
+                            <a class="hiddenAnchor" id="availability"></a>
+                            <div>
+                                <div class="page-margins">
+                                    <h2>Availability</h2>
+                                    <h3>Mira Vista
+                                    <!-- -->
+                                    Site Plan</h3>
+                                </div>
+                            </div>
+                            <div>
+                                <div id="siteplan">
+                                    <div class="">
+                                        <header class="SitePlan_siteplanHeader__Cp0i8">
+                                            <a class="hiddenAnchor noHeight" id="siteplan_anchor"></a>
+                                            <button class="SitePlan_closeButton__a_jEA closeButton clear-styles" aria-label="Close"></button>
+                                            <div class="SitePlan_zoomControls__TXvOD SitePlan_isHidden__4nEHA">
+                                                <button class="SitePlan_button__JYhWi SitePlan_in__5lzyl clear-styles">
+                                                    <span>
+                                                        <span class="SitePlan_words__p1lPH">Zoom In</span>
+                                                    </span>
+                                                </button>
+                                                <button class="SitePlan_button__JYhWi clear-styles" disabled="">
+                                                    <span>
+                                                        <span class="SitePlan_words__p1lPH">Zoom Out</span>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </header>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <span>...getting neighborhood map...</span>
+                        <section class="TemplateCommunity_footer__Njb2K">
+                            <span>...</span>
+                        </section>
+                        <footer>...</footer>
+                        <span>...getting contact sales panel...</span>
+                        <span>...getting contact tour panel...</span>
+                        <span>...getting contact email panel...</span>
+                        <span>...getting contact vippanel...</span>
+                        <span>...getting contact openOfflinePanel panel...</span>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <script id="__NEXT_DATA__" type="application/json">
+            {"props":{"pageProps":{"componentType":"CommunityComponent","pageData":{"componentType":"CommunityComponent","path":"/luxury-homes-for-sale/California/Mira-Vista","projectId":"86330000","communityComponent":{"acquireId":"5733q000000WBi7","acquireJde":"8633","amenities":{"amenityGroups":[],"headshot":null,"title":"Some title"},"availableLots":0,"badgeLink":null,"badgeText":null,"city":"San Diego","cleanName":null,"communityId":14464,"communityTypes":["Future"],"county":"San Diego","cpRegion":"CA-SOUTHERN","dcaDisclaimer":null,"downloadables":null,"e1id":"86330000","eventLink":null,"events":null,"eventText":null,"gallery":{"mediaGroups":[{"media":[{"description":"Luxurious home designs with open floor plans","link":null,"representative":false,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/2-100-West_Towns_P3_Family-Room_1920.jpg"},{"description":"Nearby Mission Bay","link":null,"representative":false,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/Mission-Bay-Pacific-Beach-Mission-Beach-La-Jolla_1920.jpg"},{"description":"Primary bedrooms with walk-in closet","link":null,"representative":false,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/7-100-West_Terraces_P3_Primary-Bedroom_1920.jpg"},{"description":"Luxe primary bathrooms","link":null,"representative":false,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/8-100-West_Terraces_P3_Primary-Bath_1920.jpg"},{"description":"Three-story floor plans","link":null,"representative":false,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/1-100-West_Towns_P3_Great-Room_1920.jpg"},{"description":"Toll Brothers superior designs and quality craftsmanship","link":null,"representative":false,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/2-100-West_Towns_P2_Great-Room_1920.jpg"}],"name":""}],"title":null,"walkThroughs":[]},"hasNeighborhoodMap":true,"hbqMarketInterest":"CA - ORANGE-SAN DIEGO","headShot":{"media":{"description":"Luxurious home designs with open floor plans","link":null,"representative":false,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/2-100-West_Towns_P3_Family-Room_1920.jpg"},"title":"We need a title here"},"hideComingSoon":false,"homes":null,"homeTypes":["Townhome"],"isFuture":true,"jdeNum":"8633","jumboMortgageRate":"7.99","lat":"32.803620294087125","loanLimit":701500,"logo":{"description":null,"link":null,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/logo-resized/MiraVistaLogo-V-BLK.svg"},"lon":"-117.1995187334501","masterCommunityId":null,"masterCommunityName":null,"metaDescription":"The Mira Vista is a new home community in San Diego, CA. Speak to an OSC to explore these 3-story townhomes with various personalization options \u0026 ideal views.","name":"Mira Vista","offline":false,"options":[{"id":"82","name":"Interactive Site Plan On Future"}],"overview":{"bulletPoints":[{"text":"No Mello Roos \u0026 Low property tax rate"},{"text":"Luxurious home designs with open floor plans"},{"text":"Conveniently located with great dining and shopping opportunities"},{"text":"Toll Brothers superior designs and quality craftsmanship"},{"text":"5 Minutes to the beach"}],"description":"Coming soon, Spring 2024, take it all in from a stunning vantage point within San Diego’s Clairemont Mesa. This exclusive community of just 40 home sites offers exquisite views of the surrounding area and beautiful new construction luxury townhomes with three levels of living space. With the unique opportunity to select from a variety of personalization options, you can create a new home that perfectly reflects your taste and style in this sought-after location close to upscale shopping and dining and a plethora of world-class recreation.","headshot":{"description":"Luxurious home designs with open floor plans","link":null,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/2-100-West_Towns_P3_Family-Room_1920.jpg"},"overviewGallery":[{"description":"Nearby Mission Bay","link":null,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/Mission-Bay-Pacific-Beach-Mission-Beach-La-Jolla_1920.jpg"},{"description":"Primary bedrooms with walk-in closet","link":null,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/7-100-West_Terraces_P3_Primary-Bedroom_1920.jpg"},{"description":"Luxe primary bathrooms","link":null,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/8-100-West_Terraces_P3_Primary-Bath_1920.jpg"}],"secondaryImages":[{"description":"Three-story floor plans","link":null,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/1-100-West_Towns_P3_Great-Room_1920.jpg"},{"description":"Toll Brothers superior designs and quality craftsmanship","link":null,"title":null,"type":"image","url":"https://cdn.tollbrothers.com/communities/14464/images-resized/2-100-West_Towns_P2_Great-Room_1920.jpg"}],"shortDescription":"Mira Vista in San Diego, CA is a new home community of 3-story luxury townhomes featuring 3-4 beds and 2.5-3.5 baths with a prestigious central location in Clairemont Mesa and access to Mission Bay Park, Pacific Beach, freeways, shopping and dining.","title":"New Home Community Mira Vista in San Diego, CA | Toll Brothers"},"pricedFrom":null,"productId":"08633","rangeBath":null,"rangeBed":null,"rangeGarage":null,"rangeHalfBath":null,"rangeSqft":null,"salesOffice":{"byAppointmentOnly":false,"city":"San Diego","customHours":null,"hideDirections":true,"hideNeighborhoodMap":false,"hideSalesOffice":false,"hideTour":false,"lat":"32.803620294087125","lon":"-117.1995187334501","onlineConcierge":[{"bre":"01228134","firstName":"Eva","lastName":"Bukac","phone":"866-232-1631","sms":"866-232-1631"},{"bre":"02038295","firstName":"Nick","lastName":"Papageorgiou","phone":"866-232-1631","sms":"866-232-1631"},{"bre":"02145278","firstName":"Debbie","lastName":"McCallion","phone":"866-232-1631","sms":"866-232-1631"},{"bre":"02037257","firstName":"Stacey","lastName":"Harrison","phone":"866-232-1631","sms":"866-232-1631"}],"operatingHours":null,"salesOfficeOffsite":false,"salesOfficePhone":"866-232-1631","salesPeople":null,"showHours":true,"state":"CA","street":"Clairemont Dr. and Dakota Dr.","zip":"92117"},"siteplan":{"description":"Mira Vista - Site Plan","type":"siteplan:static","url":"https://cdn.tollbrothers.com/communities/14464/siteplans-resized/14464_siteplan1_1920.jpg","urlMobile":"https://cdn.tollbrothers.com/communities/14464/siteplans-resized/14464_siteplan1_920.jpg"},"socialMedia":null,"standardMortgageRate":"7.625","state":"CA","street":null,"tour":null,"url":"https://www.tollbrothers.com/luxury-homes-for-sale/California/Mira-Vista","zip":"92117"},"masterCommunityComponent":null,"modelComponent":null},"projectId":"86330000","isAutoResponse":false},"__N_SSG":true},"page":"/luxury-homes-for-sale/[[...product]]","query":{"product":["California","Mira-Vista"]},"buildId":"JpbKMC7ioT-789pq0RjyV","runtimeConfig":{"services":{"okta":["/my-favorites","/luxury-homes-for-sale/[[...product]]"],"mapkit":["/[[...slug]]","/details","/luxury-homes/[[...searchSlug]]","/search/[[...searchSlug]]","/luxury-homes-for-rent/[[...searchSlug]]"]}},"isFallback":false,"gsp":true,"scriptLoader":[]}
+        </script>
+        <link href="https://global.oktacdn.com/okta-signin-widget/7.3.1/css/okta-sign-in.min.css" type="text/css" rel="stylesheet"/>
+    </body>
+    <meta name="theme-color" content="#0d223f"/>
+</html>
