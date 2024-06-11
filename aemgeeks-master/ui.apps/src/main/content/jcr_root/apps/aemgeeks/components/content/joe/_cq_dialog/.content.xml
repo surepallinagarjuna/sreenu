@@ -1,47 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:unstructured"
-    jcr:title="joe"
-    sling:resourceType="cq/gui/components/authoring/dialog"
-    extraClientlibs="[clientlibs.joe]">
+    jcr:title="Joe"
+    sling:resourceType="/libs/cq/gui/components/authoring/dialog"
+    extraClientlibs="[sai.component]">
     <content
         jcr:primaryType="nt:unstructured"
-        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
-        <items jcr:primaryType="nt:unstructured">
-            <column
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="granite/ui/components/coral/foundation/container">
-                <items jcr:primaryType="nt:unstructured">
-                    <checkbox
-                        granite:class="cq-dialog-checkbox-showhide"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="/libs/granite/ui/components/foundation/form/checkbox"
-                        name="./isGraduated"
-                        text="is graduated?"
-                        value="true">
-                        <grainet.data
-                            jcr:primaryType="nt:unstructured"
-                            cq-dialog-checkbox-showhide-target=".togglefield"/>
-                    </checkbox>
-                    <toggle
-                        granite:class=".togglefield"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/container">
-                        <items jcr:primaryType="nt:unstructured">
-                            <name
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                                fieldLabel="College Name"
-                                name="./collegeName"/>
-                            <passingyear
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                                fieldLabel="Passing Year"
-                                name="./passingYear"/>
-                        </items>
-                    </toggle>
-                </items>
-            </column>
-        </items>
-    </content>
+        sling:resourceType="/libs/granite/ui/components/coral/foundation/fixedcolumns"/>
 </jcr:root>

@@ -14,7 +14,7 @@
             "projectName": "aemgeeks-master",
             "request": "attach",
             "hostName": "localhost",
-            "port": 8002
+            "port": 8003
         }
     ]
 }

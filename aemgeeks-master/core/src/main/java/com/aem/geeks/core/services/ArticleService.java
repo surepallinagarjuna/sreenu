@@ -20,7 +20,7 @@ public class ArticleService {
 
     @Deactivate
     public void Deactivate(){
-        LOG.info(" ArticleService - am notbusy");
+        LOG.info(" ArticleService - I am notbusy");
 
     }
 

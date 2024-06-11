@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:unstructured"
-    jcr:title="sai"
+    jcr:title="Checkbox"
     sling:resourceType="/libs/cq/gui/components/authoring/dialog"
-    extraClientlibs="[sai.component]">
+    extraClientlibs="[sai.component,sai.component1]">
     <content
         jcr:primaryType="nt:unstructured"
         sling:resourceType="/libs/granite/ui/components/coral/foundation/fixedcolumns">
@@ -12,11 +12,11 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="/libs/granite/ui/components/coral/foundation/container">
                 <items jcr:primaryType="nt:unstructured">
-                    <instaid
+                    <number
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="/libs/granite/ui/components/coral/foundation/form/pathfield"
-                        fieldLabel="Insta ID"
-                        name="./instaid"/>
+                        sling:resourceType="/libs/granite/ui/components/coral/foundation/form/numberfield"
+                        fieldLabel="Phone Number"
+                        name="./number"/>
                     <profession
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="/libs/granite/ui/components/coral/foundation/form/select"
@@ -37,6 +37,18 @@
                                 value="business"/>
                         </items>
                     </profession>
+                    <checkbox
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="/libs/granite/ui/components/coral/foundation/form/checkbox"
+                        disabled="{Boolean}true"
+                        name="./checkbox"
+                        text="CheckBox"
+                        value="{Boolean}true"/>
+                    <checkbox1
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="/libs/granite/ui/components/coral/foundation/form/checkbox"
+                        name="./checkbox1"
+                        text="Checkbox1"/>
                 </items>
             </column>
         </items>
