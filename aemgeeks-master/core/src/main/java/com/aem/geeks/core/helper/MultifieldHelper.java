@@ -1,6 +1,5 @@
 package com.aem.geeks.core.helper;
 
-import com.aem.geeks.core.models.impl.AuthorBooksImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
 import org.slf4j.Logger;
@@ -16,6 +15,9 @@ public class MultifieldHelper {
     private Date publishDate;
     private int copies;
     private List<NastedHalper> bookEditons;
+    private List<NastedHalper> teamsHePlayed;
+    private String cricketerName;
+    private String profilePage;
     public MultifieldHelper(Resource resource){
         try {
             if(StringUtils.isNotBlank(resource.getValueMap().get("bookname", String.class))) {
@@ -29,6 +31,12 @@ public class MultifieldHelper {
             }
             if(resource.getValueMap().get("copies",Integer.class)!=null) {
                 this.copies=resource.getValueMap().get("copies",Integer.class);
+            }
+            if(StringUtils.isNotBlank(resource.getValueMap().get("cricketername", String.class))) {
+                this.cricketerName = resource.getValueMap().get("cricketername", String.class);
+            }
+            if(StringUtils.isNotBlank(resource.getValueMap().get("profilepage", String.class))) {
+                this.profilePage = resource.getValueMap().get("profilepage", String.class);
             }
 
         }catch (Exception e){
@@ -60,4 +68,22 @@ public class MultifieldHelper {
     public void setBookEditons(List<NastedHalper> bookEditons) {
         this.bookEditons = bookEditons;
     }
+
+    public List<NastedHalper> getTeamsHePlayed() {
+        return teamsHePlayed;
+    }
+
+    public void setTeamsHePlayed(List<NastedHalper> teamsHePlayed) {
+        this.teamsHePlayed = teamsHePlayed;
+    }
+
+    public String getCricketerName(){
+        return cricketerName;
+    }
+
+    public String getProfilePage() {
+        return profilePage;
+    }
+
+   
 }

@@ -1,0 +1,16 @@
+<div data-sly-use.obj="com.aem.geeks.core.models.CarouselMultifieldModel">
+     <sly data-sly-list.you="${obj.carousel}">
+          <p>Name:${you.name}</p>
+          <p>Profile:${you.profile}</p>
+          <sly data-sly-list="${you.nestedmultifield}">
+               <p>Name:${item.place} </p>
+          </sly>
+     </sly>
+</div>
+
+
+
+
+
+
+

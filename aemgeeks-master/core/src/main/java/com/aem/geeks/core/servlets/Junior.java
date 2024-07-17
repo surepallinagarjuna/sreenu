@@ -21,7 +21,7 @@ import java.io.IOException;
                 "sling.servlet.selectors=jun",
                 "sling.servlet.extensions=recent"
         })
-        public class Junior extends SlingSafeMethodsServlet{
+public class Junior extends SlingSafeMethodsServlet{
 
     @Override
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws IOException {

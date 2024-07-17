@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:EditConfig">
+    <cq:dropTargets jcr:primaryType="nt:unstructured">
+        <iframe
+            jcr:primaryType="cq:DropTargetConfig"
+            accept="text/html"
+            groups="media"
+            propertyname="./embedUrl">
+            <parameters
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemgeeks/components/embedcomponent"/>
+        </iframe>
+    </cq:dropTargets>
+    <cq:inplaceEditConfig
+        jcr:primaryType="cq:InplaceEditingConfig"
+        active="{Boolean}true"
+        editorType="iframe">
+        <Config jcr:primaryType="nt:unstructured">
+            <iframe
+                jcr:primaryType="nt:unstructured"
+                height="800"
+                width="900"/>
+        </Config>
+    </cq:inplaceEditConfig>
+</jcr:root>
