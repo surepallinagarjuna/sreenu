@@ -25,7 +25,7 @@ public class Junior extends SlingSafeMethodsServlet{
 
     @Override
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws IOException {
-          String parameter = request.getParameter("page");
+        String parameter = request.getParameter("page");
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpGet httpGet = new HttpGet(parameter);
         CloseableHttpResponse httpResponse = httpClient.execute(httpGet);
