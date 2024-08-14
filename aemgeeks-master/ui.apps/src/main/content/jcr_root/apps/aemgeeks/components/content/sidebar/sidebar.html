@@ -1,26 +1,21 @@
+<div data-sly-use.sun="${'com.aem.geeks.core.models.Sidebar'}">
+<p>path : ${sun.path}</p>
+<div>
+        <img src="${sun.imageRef @ context='uri'}" alt="mobilelogoPath" width="200" height="300"/>
+    </div>
+<p>image link : <a href ="${sun.link}">mobilelogo</a></p>
+<p>switch : ${sun.button ? 'on' : 'off'}</p>
+<h5> country:${sun.country} </h5>
 
-<sly data-sly-use.side="com.aem.geeks.core.models.Sidebar"></sly>
-
-
-<div>Logo Path :  ${side.logo} </div>
-
-<div>Logo Mobile Image  :  ${side.mobile}   </div>
-
-<div>Logo Link   :  ${side.pic}  </div>
-
-<div>Enable Switch:  ${side.king}  </div>
-
- <div data-sly-test="${side.mrs}">
-      <sly data-sly-list.side2=${side.mrs}>
-      place:${side2.place}<br>
-      nenu:${side2.photo}<br>
-
-<div data-sly-test="${mrs.navi}">
-<sly data-sly-list.navigation=${mrs.navi}>
-      text:${navigation.icon}<br>
-      dec:${navigation.mobile}<br>
+<div data-sly-list="${sun.one}">
+    name : ${item.name}<br>
+    image : ${item.image}<br>
 </div>
-
-
-
-
+<div data-sly-list.san="${sun.two}">
+    mobileIcon :${san.mobile}<br>
+    desktopIcon :${san.desktop}<br>
+    <div data-sly-list="${san.three}">
+        url : ${item.url}<br>
+    </div>
+</div>
+</div>

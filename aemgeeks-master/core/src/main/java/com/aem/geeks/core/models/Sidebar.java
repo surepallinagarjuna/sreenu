@@ -1,53 +1,53 @@
 package com.aem.geeks.core.models;
 
+
+
 import java.util.List;
 
 import javax.inject.Inject;
 
-import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ChildResource;
 
-@Model(adaptables = {Resource.class,SlingHttpServletRequest.class},defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 
+@Model(adaptables = Resource.class,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class Sidebar {
     @Inject
-    private String logo;
-
+    private String path;
     @Inject
-    private String logomobile;
-
+    private String imageRef;
     @Inject
-    private String pic;
-
+    private String link;
     @Inject
-    private String king;
-
+    private String button; 
+    @Inject
+    private String country;
     @ChildResource
-    private List<Sidebar2>mrs;
-
-     public String getLogo() {
-        return logo;
+    private List<one> one;
+    public List<one> getOne() {
+        return one;
     }
+    @ChildResource
+    private List<two> two;
 
-    public String getLogomobile() {
-        return logomobile;
+    public List<two> getTwo() {
+        return two;
     }
-
-    public String getPic() {
-        return pic;
+    public String getPath() {
+        return path;
     }
-
-    public String getKing() {
-        return king;
+    public String getImageRef() {
+        return imageRef;
     }
-
-    public List<Sidebar2> getMrs() {
-        return mrs;
+    public String getLink() {
+        return link;
     }
-
-   
-    
+    public String getButton() {
+        return button;
+    }
+    public String getCountry() {
+        return country;
+    }
 }

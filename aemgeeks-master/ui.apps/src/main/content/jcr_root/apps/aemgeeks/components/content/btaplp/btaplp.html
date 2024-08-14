@@ -1,0 +1,108 @@
+
+<sly data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"></sly>
+<div data-sly-test.author="${wcmmode.edit || wcmmode.design}" data-sly-unwrap>
+    <pre>Click here to edit HTML Table Component</pre>
+</div>
+<section class="htmlTable">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="wrapper">
+                <div class="html">
+                     <p class="table">${properties.table}</p>
+                    <div class="answers-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>${properties.text}</th>
+                                    <th>${properties.text}</th>
+                                    <th>${properties.text}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <sly data-sly-list.multifield="${resource.getChildren}">
+                                    <sly data-sly-test="${multifield.name == 'rows'}">
+                                        <sly data-sly-list.item="${multifield.getChildren}">
+                                            <tr>
+                                                <td>${item.column1}</td>
+                                                <td>${item.column2}</td>
+                                                <td>${item.column3}</td>
+                                            </tr>
+                                        </sly>
+                                    </sly>
+                                </sly>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+    data-sly-call="${clientlib.css @ categories='HTML-Table'}" />
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
+<style>
+.htmlTable {
+        padding: 20px;
+}
+
+.container {
+        width: 100%;
+}
+
+.wrapper {
+        max-width: 932px;
+        top: 204px;
+        left: 254px;
+
+}
+
+.html {
+        margin-top: 20px;
+}
+
+.table {
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 24px;
+}
+
+.answers-wrapper {
+        width: 100%;
+}
+
+table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+}
+
+th,td {
+        padding: 16px;
+        text-align: left;
+        font-size: 15px;
+        border: 1px solid #e0e0e0;
+}
+
+th {
+
+        color: #333;
+        background: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: "Petco Circular CAP";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+        background: #FFF;
+}
+
+tr:nth-child(odd) {
+        background: #F4F7FF;
+}
+</style>

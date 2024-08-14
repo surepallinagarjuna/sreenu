@@ -1,0 +1,26 @@
+<sly data-sly-use.money="com.aem.geeks.core.models.Header"></sly>
+
+<p data-sly-test="${money.pathfield}">Path Field:
+         ${money.pathfield}</p>
+
+<sly data-sly-test="${money.textfield}">
+      Text Field:${money.textfield}
+      </sly>
+
+ <div data-sly-test="${money.checkbox}">
+    Cricketer:${money.checkbox}
+</div>
+
+
+
+ <div data-sly-test="${money.multifield}">
+      <sly data-sly-list.money2=${money.multifield}>
+      Text:${money2.text}<br>
+      Date:${money2.date}<br>
+
+</div>
+
+
+
+
+

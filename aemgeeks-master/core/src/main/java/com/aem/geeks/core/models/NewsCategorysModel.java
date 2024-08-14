@@ -25,7 +25,8 @@ public class NewsCategorysModel {
 
     @ValueMapValue
     @Default(values = "newsportal:categories")
-    private String categoryTag;//based on this category Tag  we have to creat Tag object. by using the tag API we have to creat tagobj,from the tag object we have create all childtags.from the childtag to read all title and Number of reference 
+    private String categoryTag;//based on this category Tag  we have to creat Tag object. by using the tag API we have to creat tagobj,from the
+    //  tag object we have create all childtags.from the childtag to read all title and Number of reference 
     //To create Tagobj it requerd TAGManager
 
     @SlingObject

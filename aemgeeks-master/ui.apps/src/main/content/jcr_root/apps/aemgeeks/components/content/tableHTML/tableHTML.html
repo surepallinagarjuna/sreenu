@@ -1,0 +1,46 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<sly data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"></sly>
+    <div data-sly-test.author="${wcmmode.edit || wcmmode.design}" data-sly-unwrap>
+        <pre>Click here to edit HTML Table Component</pre>
+    </div>
+    <section class="htmlTable">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="wrapper">
+                    <div class="html">
+                        <p class="table">jhv</p>
+                        <div class="answers-wrapper">
+                            <div class="table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                        <th>According to Hindu scriptures, Lord Venkateswara manifested on Earth during the Kali Yuga, the current era marked by moral and spiritual degradation.</th>
+                                        <th>According to Hindu scriptures, Lord Venkateswara manifested on Earth during the Kali Yuga, the current era marked by moral and spiritual degradation.</th>
+                                        <th>According to Hindu scriptures, Lord Venkateswara manifested on Earth during the Kali Yuga, the current era marked by moral and spiritual degradation.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                                    <tr>
+                                                        <td>According to Hindu scriptures, Lord Venkateswara manifested on Earth during the Kali Yuga, the current era marked by moral and spiritual degradation.</td>
+                                                    <td>According to Hindu scriptures, Lord Venkateswara manifested on Earth during the Kali Yuga, the current era marked by moral and spiritual degradation.</td>
+                                                    <td>According to Hindu scriptures, Lord Venkateswara manifested on Earth during the Kali Yuga, the current era marked by moral and spiritual degradation.</td>
+                                                    </tr>
+                                                </sly>
+                                            </sly>
+                                        </sly>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+        data-sly-call="${clientlib.css @ categories='HTML-Table'}" />
+    <sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
+</head>

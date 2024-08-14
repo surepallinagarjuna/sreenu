@@ -48,7 +48,7 @@ public class Lenovo {
         return lastname;
     }
 
-    public boolean isVirat() {
+    public boolean getVirat() {
         return virat;
     }
 
