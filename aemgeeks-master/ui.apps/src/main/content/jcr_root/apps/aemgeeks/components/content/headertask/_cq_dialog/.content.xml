@@ -40,16 +40,14 @@
                                     sling:resourceType="/libs/granite/ui/components/coral/foundation/form/datepicker"
                                     fieldLabel="Date"
                                     name="./date"/>
+                                <checkbox
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="/libs/granite/ui/components/coral/foundation/form/checkbox"
+                                    fieldLabel="Checkbox"
+                                    name="./checkbox"/>
                             </items>
                         </field>
                     </multifield>
-                    <checkbox
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="/libs/granite/ui/components/coral/foundation/form/checkbox"
-                        fieldLabel="Checkbox"
-                        name="./checkbox"
-                        text="cricket"
-                        value="{Boolean}true"/>
                 </items>
             </column>
         </items>
