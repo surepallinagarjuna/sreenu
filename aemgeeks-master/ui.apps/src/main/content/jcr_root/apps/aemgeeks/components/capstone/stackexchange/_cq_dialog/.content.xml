@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <select
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                        emptyText="Select a course"
+                        fieldLabel="Course"
+                        name="./course">
+                        <items jcr:primaryType="nt:unstructured">
+                            <aem
+                                jcr:primaryType="nt:unstructured"
+                                text="aem"
+                                value="aem"/>
+                            <java
+                                jcr:primaryType="nt:unstructured"
+                                text="java"
+                                value="java"/>
+                            <python
+                                jcr:primaryType="nt:unstructured"
+                                text="python"
+                                value="python"/>
+                            <html
+                                jcr:primaryType="nt:unstructured"
+                                text="html"
+                                value="html"/>
+                            <css
+                                jcr:primaryType="nt:unstructured"
+                                text="css"
+                                value="css"/>
+                            <js
+                                jcr:primaryType="nt:unstructured"
+                                text="js"
+                                value="js"/>
+                            <salesforce
+                                jcr:primaryType="nt:unstructured"
+                                text="salesforce"
+                                value="salesforce"/>
+                        </items>
+                    </select>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

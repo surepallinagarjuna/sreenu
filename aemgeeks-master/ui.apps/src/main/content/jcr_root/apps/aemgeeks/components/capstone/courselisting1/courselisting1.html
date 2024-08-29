@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Data</title>
+    <style>
+        .course-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .course-item {
+            flex: 1 1 calc(33.333% - 20px); /* Subtract the gap size */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .course-image {
+            width: 100%; /* Ensures the image takes full width of its container */
+            max-width: 200px; /* Sets a maximum width */
+            height: 150px; /* Sets a fixed height */
+            object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+            border-radius: 10px;
+        }
+
+        .course-title {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .course-description,
+        .course-duration {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .course-item {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .course-item {
+                flex: 1 1 100%;
+            }
+        }
+
+        .course-details {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <sly data-sly-use.courseDetails="com.aem.geeks.core.models.CourseDetailsModel">
+        <div class="course-list">
+            <sly data-sly-list.course="${courseDetails.courses}">
+                <div class="course-item" data-course-name="${course.title}">
+                    <img src="${course.image}" alt="${course.title}" class="course-image"/>
+                    <h3 class="course-title">${course.title}</h3>
+                    <p class="course-description">${course.description}</p>
+                    <p class="course-duration">Duration: ${course.duration}</p>
+                </div>
+            </sly>
+        </div>
+    </sly>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var courseItems = document.querySelectorAll('.course-item');
+            
+            // Map course titles to their corresponding URL paths
+            var coursePathMap = {
+                "Introduction to AEM": "aem",
+                "Advanced Java": "java",
+                "Introduction to Python": "python",
+                "Introduction to CSS": "css",
+                "HTML for Beginners": "html",
+                "JS for Beginners": "js",
+                "Salesforce for Beginners": "salesforce"
+            };
+            
+            courseItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    var courseName = this.getAttribute('data-course-name');
+                    if (courseName === "JS for Beginners") {
+                        window.open('/content/aemgeeks/us/CapstonePage/coursepages/aem.html', '_blank');
+                    } else {
+                        var coursePath = coursePathMap[courseName];
+                        if (coursePath) {
+                            window.open('/content/capstone/us/en/homepage/courses/' + coursePath + '.html', '_blank');
+                        } else {
+                            console.error('Course path not found for:', courseName);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

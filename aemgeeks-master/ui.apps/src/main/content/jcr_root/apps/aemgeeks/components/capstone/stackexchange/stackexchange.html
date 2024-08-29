@@ -1,0 +1,435 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Hub</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.stackexchange-component {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#stackexchange-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 30px);
+    max-width: calc(33.333% - 30px);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1em;
+}
+
+.card h3 a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.card h3 a:hover {
+    text-decoration: underline;
+}
+
+.tags, .owner, .score, .date {
+    margin: 3px 0;
+}
+
+.tags {
+    font-weight: bold;
+}
+
+.owner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #0073aa;
+}
+
+.owner a {
+    text-decoration: none;
+    color: #0073aa;
+    font-size: 12px;
+}
+
+.owner a:hover {
+    text-decoration: underline;
+}
+
+.score {
+    font-weight: bold;
+    color: #333;
+}
+
+.buy-button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    align-self: flex-start;
+}
+
+.buy-button:hover {
+    background-color: #218838;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.payment-options {
+    margin-top: 20px;
+}
+
+.payment-options button {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.payment-options .offline {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.payment-options .online {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.payment-methods {
+    display: none;
+    margin-top: 20px;
+}
+
+.payment-methods button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.payment-methods .credit-card {
+    background-color: #0073aa;
+}
+
+.payment-methods .debit-card {
+    background-color: #17a2b8;
+}
+
+.payment-methods .upi {
+    background-color: #ffc107;
+}
+
+.payment-details {
+    display: none;
+    margin-top: 20px;
+}
+
+.payment-details input {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.confirmation-message {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.confirmation-message h3 {
+    color: #28a745;
+}
+
+    </style>
+</head>
+<body>
+    <div class="stackexchange-component" data-course="${properties.course @ context='scriptString'}">
+        <h2>Learning Hub</h2>
+        <div id="stackexchange-results">Loading...</div>
+    </div>
+
+    <div id="purchaseModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Purchase Course</h2>
+            <p id="courseCost">Course Cost: $<span></span></p>
+            <div class="payment-options">
+                <button class="offline">Offline Payment</button>
+                <button class="online">Online Payment</button>
+            </div>
+            <div class="payment-methods">
+                <button class="credit-card">Credit Card</button>
+                <button class="debit-card">Debit Card</button>
+                <button class="upi">UPI</button>
+            </div>
+            <div class="payment-details">
+                <h3>Payment Details</h3>
+                <input type="text" id="payment-name" placeholder="Name on Card/UPI">
+                <input type="text" id="payment-info" placeholder="Card Number/UPI ID">
+                <button id="submitPayment" class="buy-button">Submit Payment</button>
+            </div>
+            <div class="confirmation-message" id="confirmationMessage">
+                <h3>You have successfully registered for the course!</h3>
+                <p>Thank you for your purchase.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    var component = document.querySelector(".stackexchange-component");
+    var course = component.dataset.course;
+
+    if (!course) {
+        document.getElementById("stackexchange-results").textContent = "No course selected.";
+        return;
+    }
+
+    // Corrected servlet path
+    var servletPath = "/bin/stackexchange/questions?tagged=" + encodeURIComponent(course);
+
+    fetch(servletPath)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);  // Log the complete API response for debugging
+
+            var resultsContainer = document.getElementById("stackexchange-results");
+            resultsContainer.innerHTML = ""; // Clear any existing content
+
+            if (data.items && data.items.length > 0) {
+                data.items.forEach(item => {
+                    var card = document.createElement("div");
+                    card.classList.add("card");
+
+                    var title = document.createElement("h3");
+                    title.innerHTML = `<a href="${item.link}" target="_blank">${item.title}</a>`;
+                    card.appendChild(title);
+
+                    var tags = document.createElement("p");
+                    tags.classList.add("tags");
+                    tags.textContent = "Tags: " + item.tags.join(", ");
+                    card.appendChild(tags);
+
+                    var owner = document.createElement("div");
+                    owner.classList.add("owner");
+
+                    if (item.owner && item.owner.profile_image) {
+                        var profileImg = document.createElement("img");
+                        profileImg.src = item.owner.profile_image;
+                        profileImg.alt = item.owner.display_name || "Owner";
+                        profileImg.classList.add("profile-image");
+                        owner.appendChild(profileImg);
+                    }
+
+                    var ownerInfo = document.createElement("p");
+                    ownerInfo.innerHTML = `Asked by: <a href="${item.owner.link}" target="_blank">${item.owner.display_name}</a>`;
+                    owner.appendChild(ownerInfo);
+
+                    card.appendChild(owner);
+
+                    var score = document.createElement("p");
+                    score.classList.add("score");
+                    score.textContent = "Score: " + item.score;
+                    card.appendChild(score);
+
+                    var dateInfo = document.createElement("p");
+                    dateInfo.classList.add("date");
+                    dateInfo.textContent = "Creation Date: " + new Date(item.creation_date * 1000).toLocaleDateString();
+                    card.appendChild(dateInfo);
+
+                    var lastActivityDate = document.createElement("p");
+                    lastActivityDate.classList.add("date");
+                    lastActivityDate.textContent = "Last Activity Date: " + new Date(item.last_activity_date * 1000).toLocaleDateString();
+                    card.appendChild(lastActivityDate);
+
+                    var buyButton = document.createElement("button");
+                    buyButton.classList.add("buy-button");
+                    buyButton.textContent = "Buy Course";
+                    buyButton.addEventListener("click", function() {
+                        openPurchaseModal(item);
+                    });
+                    card.appendChild(buyButton);
+
+                    resultsContainer.appendChild(card);
+                });
+            } else {
+                resultsContainer.textContent = "No data available for the selected course.";
+            }
+        })
+        .catch(error => {
+            console.error("There was a problem with the fetch operation:", error);
+            document.getElementById("stackexchange-results").textContent = "Error fetching data.";
+        });
+});
+
+
+        function openPurchaseModal(item) {
+            var modal = document.getElementById("purchaseModal");
+            var span = document.getElementsByClassName("close")[0];
+            var courseCost = document.getElementById("courseCost").querySelector("span");
+            var paymentMethods = document.querySelector(".payment-methods");
+            var paymentDetails = document.querySelector(".payment-details");
+            var confirmationMessage = document.getElementById("confirmationMessage");
+
+            modal.style.display = "flex";
+            courseCost.textContent = "99"; // Set the course cost dynamically if available
+
+            span.onclick = function() {
+                modal.style.display = "none";
+                paymentMethods.style.display = "none";
+                paymentDetails.style.display = "none";
+                confirmationMessage.style.display = "none";
+            };
+
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                    paymentMethods.style.display = "none";
+                    paymentDetails.style.display = "none";
+                    confirmationMessage.style.display = "none";
+                }
+            };
+
+            document.querySelector(".offline").onclick = function() {
+                alert("Please visit our office for offline payment.");
+                modal.style.display = "none";
+                paymentMethods.style.display = "none";
+                paymentDetails.style.display = "none";
+                confirmationMessage.style.display = "none";
+            };
+
+            document.querySelector(".online").onclick = function() {
+                paymentMethods.style.display = "block";
+                paymentDetails.style.display = "none";
+                confirmationMessage.style.display = "none";
+            };
+
+            document.querySelector(".credit-card").onclick = function() {
+                paymentDetails.style.display = "block";
+                confirmationMessage.style.display = "none";
+            };
+
+            document.querySelector(".debit-card").onclick = function() {
+                paymentDetails.style.display = "block";
+                confirmationMessage.style.display = "none";
+            };
+
+            document.querySelector(".upi").onclick = function() {
+                paymentDetails.style.display = "block";
+                confirmationMessage.style.display = "none";
+            };
+
+            document.getElementById("submitPayment").onclick = function() {
+                paymentDetails.style.display = "none";
+                confirmationMessage.style.display = "block";
+            };
+        }
+    </script>
+</body>
+</html> -->

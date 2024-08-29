@@ -1,0 +1,20 @@
+<sly data-sly-use.kanni="com.aem.geeks.core.models.Mahesh">
+
+<div>
+    <h2>Multifield 1:</h2>
+    <ul>
+        <sly data-sly-list.item="${model.multifield}">
+            <li>${item}</li>
+        </sly>
+    </ul>
+</div>
+
+<div>
+    <h2>Multifield 2:</h2>
+    <ul>
+        <sly data-sly-list.item="${model.footer}">
+            <li>${item}</li>
+        </sly>
+    </ul>
+  </div>
+</sly>

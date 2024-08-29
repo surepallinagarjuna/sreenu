@@ -1,5 +1,0 @@
-#base=js
-
-author.js
-listeners.js
-granite-ui-multifield-max-items.js
